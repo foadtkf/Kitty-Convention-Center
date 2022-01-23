@@ -1,0 +1,9 @@
+.h1,
+h5 {
+    font-family: 'Poppins';
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: black;
+}
