@@ -1,9 +1,15 @@
 .h1,
-h5 {
+h5,
+h1 {
     font-family: 'Poppins';
 }
 
 .carousel-caption h5,
-.carousel-caption p {
-    color: black;
+.carousel-caption p,
+.classic {
+    color: white;
+}
+
+.carousel-item img {
+    filter: brightness(50%);
 }
