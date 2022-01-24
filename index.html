@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <!-- Header-Section -->
+    <!-- Header-Part -->
     <header class="sticky-top ">
         <nav class="navbar navbar-light bg-light">
             <div class="container">
@@ -28,9 +28,10 @@
             </div>
         </nav>
     </header>
+    <!-- Main Part -->
     <main>
         <!-- section-1 Carousel -->
-        <section class="my-2">
+        <section>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -132,9 +133,9 @@
 
         <!-- section-3 Frequently Asked Questions-->
         <h1 class=" my-4 navbar-brand text-center">Frequently Asked Questions</h1>
-        <section class="container my-3">
-            <div class="row">
-                <div class="col">
+        <section class="container my-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+                <div class="col faq-1 ">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -151,40 +152,67 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
+                  <strong>How early do we need to start planning an event?</strong>
                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
-                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
-                                    though the transition does limit overflow.
+                                    If the occasion is bigger, then we need to spend at least two or three months. Else, we can prepare with our estimations.
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
-                </button>
+                  <strong>What is your refund and cancellation policy?</strong>
+                                    </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance,
-                                    as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
-                                    though the transition does limit overflow.
+                                    We return our clients 70% of their money if they do contact with us 7 or more days before their occasions with any valid reason.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                  <strong>How do you keep budgets on track?</strong>
+                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body"> Check our account statements. Categorize our expenses. Use a budgeting or expense-tracking app. Explore other expense trackers. Identify room for change.
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col col-sm-6:order-first">
+                    <img src="images/img4.jpg" class="d-block w-100" alt="">
+                </div>
             </div>
         </section>
     </main>
-    <footer>
+    <!-- Footer Part -->
+    <footer class=" mt-5 px-4 py-2 " style="background: #0B0D17;">
 
+        <div class="row container  gx-5">
+            <div class="col col-8 ">
+                <p style="    font-size: 60%; color: white; padding-left: 5%; padding-top: 20%;">Copyright © 2000-2022 All rights reserved by Kitty convention center</p>
+            </div>
+            <div class="col foot-btn mx-2 col-3">
+                <h3 style="color: white;">Get the app</h3>
+                <a href="https://apps.apple.com/us/genre/mac-business/id12001?mt=12&letter=B" class="btn btn-store">
+                    <img src="images/icon2.png" alt="">
+                </a>
+                <a href="https://play.google.com/store/apps" class="btn btn-store">
+                    <img src="images/icon1.png" alt="">
+                </a>
+
+
+            </div>
+        </div>
     </footer>
-    <!-- fontawesome -->
+    <!--importing fontawesome -->
     <script src="https://kit.fontawesome.com/c459829c75.js" crossorigin="anonymous"></script>
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
